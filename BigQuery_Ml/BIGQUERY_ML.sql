@@ -16,3 +16,9 @@ LIMIT 10000;
 CREATE OR REPLACE MODEL `bqml_lab.sample_model`
 OPTIONS(model_type='logistic_reg') AS
 SELECT * from `bqml_lab.training_data`;
+
+#modelevaluation
+SELECT
+  *
+FROM
+  ml.EVALUATE(MODEL `bqml_lab.sample_model`);
