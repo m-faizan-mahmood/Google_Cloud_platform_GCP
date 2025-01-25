@@ -23,7 +23,7 @@ SELECT
 FROM
   ml.EVALUATE(MODEL `bqml_lab.sample_model`);
 
-#standardSQL
+ #usingthemodel
 SELECT
   IF(totals.transactions IS NULL, 0, 1) AS label,
   IFNULL(device.operatingSystem, "") AS os,
