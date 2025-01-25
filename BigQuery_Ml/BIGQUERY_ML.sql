@@ -10,3 +10,9 @@ FROM
 WHERE
   _TABLE_SUFFIX BETWEEN '20160801' AND '20170631'
 LIMIT 10000;
+
+
+#ML MODEL
+CREATE OR REPLACE MODEL `bqml_lab.sample_model`
+OPTIONS(model_type='logistic_reg') AS
+SELECT * from `bqml_lab.training_data`;
