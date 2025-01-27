@@ -1,0 +1,10 @@
+
+Task 1. Create a new dataset to store our tables
+Task 2. Practice working with Arrays in SQL
+Task 3. Creating your own arrays with ARRAY_AGG()
+Task 4. Querying datasets that already have ARRAYs
+Task 5. Introduction to STRUCTs
+Task 6. Practice with STRUCTs and ARRAYs
+Task 7. Lab question: STRUCT()
+Unpacking ARRAYs with UNNEST( )
+Filtering within ARRAY values
