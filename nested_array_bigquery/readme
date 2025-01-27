@@ -8,3 +8,9 @@ Task 6. Practice with STRUCTs and ARRAYs
 Task 7. Lab question: STRUCT()
 Unpacking ARRAYs with UNNEST( )
 Filtering within ARRAY values
+
+
+Loading semi-structured JSON into BigQuery
+Creating and querying arrays
+Creating and querying structs
+Querying nested and repeated fields
