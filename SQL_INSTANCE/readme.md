@@ -1,8 +1,5 @@
-Here’s a brief explanation for a **README.md** file based on the provided steps:
 
----
-
-# Cloud SQL Taxi Trip Data Pipeline
+# Cloud SQL Trip Data Pipeline
 
 This project demonstrates how to create and manage a Cloud SQL instance using Google Cloud tools and load NYC taxi trip data into a MySQL database for analysis. Follow the steps below to prepare your environment, set up the database, load data, and perform integrity checks.
 
@@ -115,6 +112,3 @@ This project demonstrates how to create and manage a Cloud SQL instance using Go
 ## Conclusion
 This pipeline sets up a Cloud SQL database, imports NYC taxi trip data, and performs initial quality checks. These steps serve as a foundation for deeper analysis and data processing.
 
---- 
-
-This README structure ensures clarity and usability for GitHub users. Let me know if you need additional formatting or tweaks!
