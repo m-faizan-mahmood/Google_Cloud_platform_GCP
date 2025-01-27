@@ -22,7 +22,7 @@ This project demonstrates how to create and manage a Cloud SQL instance using Go
    ```
 2. Set a root password:
    ```bash
-   gcloud sql users set-password root --host % --instance taxi --password Passw0rd
+   gcloud sql users set-password root --host % --instance taxi --password ----
    ```
 3. Configure access for your Cloud Shell instance:
    ```bash
